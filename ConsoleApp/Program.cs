@@ -9,4 +9,4 @@ while(nszam != 0){
     }
 }
 Console.WriteLine(string.Join(",", lista));
-Console.WriteLine("A lista legkisebb eleme:"+ lista.Min());
+Console.WriteLine("A lista legnagyobb eleme:"+ lista.Max());
