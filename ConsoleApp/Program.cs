@@ -8,5 +8,5 @@ while(nszam != 0){
         lista.Add(nszam);
     }
 }
-
 Console.WriteLine(string.Join(",", lista));
+Console.WriteLine("A lista legkisebb eleme:"+ lista.Min());
